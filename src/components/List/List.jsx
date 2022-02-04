@@ -14,7 +14,7 @@ import useStyles from "./styles";
 const List = () => {
 	const classes = useStyles();
 	const [type, settype] = useState("restaurants");
-	const [rating, setRating] = useState("restaurants");
+	const [rating, setRating] = useState("");
 
 	const places = [
 		{ name: "Cool Place" },
